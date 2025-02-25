@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>YAYY! It's BOGO</h1>
+  </header>
+
+  <main>
+    <!-- Box 1 of top -->
+    <section class="box" id="box-top">
+      <div class="box-head">
+        <div class="unit">
+          <input type="radio"><b>1 Unit</b><span id="offer">10% Off</span>
+          <p id="standard">Standard Price</p>
+        </div>  
+        <div class="price"><b>$10.00 USD</b>
+          <p id="price">$24.00 USD</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="options hidden">
+          <div class="options-item item"></div>
+          <div class="options-item">Size</div>
+          <div class="options-item">Color</div>
+          <div class="options-item">#1</div>
+          <div class="options-item">
+            <select name="size" id="size">
+              <option value="small">S</option>
+              <option value="medium">M</option>
+              <option value="large">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+          <div class="options-item">
+            <select name="colors" id="color">
+              <option value="black">Black</option>
+              <option value="pink">Pink</option>
+              <option value="yellow">Yellow</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+          <div class="options-item">#2</div>
+          <div class="options-item">
+            <select name="size" id="size">
+              <option value="small">S</option>
+              <option value="medium">M</option>
+              <option value="large">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+          <div class="options-item">
+            <select name="colors" id="color">
+              <option value="black">Black</option>
+              <option value="pink">Pink</option>
+              <option value="yellow">Yellow</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Box  (Middle Box) -->
+    <section class="box expanded" id="box-middle">
+      <div class="box-head">
+        <div class="legend-label"><b>MOST POPULAR</b></div>
+        <div class="unit">
+          <input type="radio" checked><b>2 Units</b><span id="offer">20% Off</span>
+        </div>  
+        <div class="price"><b>$18.00 USD</b>
+          <p id="price">$24.00 USD</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="options">
+          <div class="options-item item"></div>
+          <div class="options-item">Size</div>
+          <div class="options-item">Color</div>
+          <div class="options-item">#1</div>
+          <div class="options-item">
+            <select name="size" id="size">
+              <option value="small">S</option>
+              <option value="medium">M</option>
+              <option value="large">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+          <div class="options-item">
+            <select name="colors" id="color">
+              <option value="black">Black</option>
+              <option value="pink">Pink</option>
+              <option value="yellow">Yellow</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+          <div class="options-item">#2</div>
+          <div class="options-item">
+            <select name="size" id="size">
+              <option value="small">S</option>
+              <option value="medium">M</option>
+              <option value="large">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+          <div class="options-item">
+            <select name="colors" id="color">
+              <option value="black">Black</option>
+              <option value="pink">Pink</option>
+              <option value="yellow">Yellow</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="box" id="box-bottom">
+      <div class="box-head">
+        <div class="unit">
+          <input type="radio" id="radio"><b>3 Units</b><span id="offer">30% Off</span>
+        </div>  
+        <div class="price"><b>$24.00 USD</b>
+          <p id="price">$24.00 USD</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="options hidden">
+          <div class="options-item item"></div>
+          <div class="options-item">Size</div>
+          <div class="options-item">Color</div>
+          <div class="options-item">#1</div>
+          <div class="options-item">
+            <select name="size" id="size">
+              <option value="small">S</option>
+              <option value="medium">M</option>
+              <option value="large">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+          <div class="options-item">
+            <select name="colors" id="color">
+              <option value="black">Black</option>
+              <option value="pink">Pink</option>
+              <option value="yellow">Yellow</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+          <div class="options-item">#2</div>
+          <div class="options-item">
+            <select name="size" id="size">
+              <option value="small">S</option>
+              <option value="medium">M</option>
+              <option value="large">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+          <div class="options-item">
+            <select name="colors" id="color">
+              <option value="black">Black</option>
+              <option value="pink">Pink</option>
+              <option value="yellow">Yellow</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bill and Cart Section -->
+    <div class="bill">
+      <span class="delivery">Free Delivery</span>
+      <span class="Tbill">Total Bill: $18.00 USD</span>
+    </div>
+    <div class="cart">+ Add to Cart</div>
+  </main>
+
+  <script src="./assets/script.js"></script>
+</body>
+</html>
